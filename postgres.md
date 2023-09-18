@@ -7,6 +7,7 @@ Some common types of databases:
 * object-oriented databases
 * hierarchical databases
 * network databases .
+Postgres is an Object-Relational Database (ORD). It combines the features of both relational and object-oriented databases, which means that objects, classes, and inheritance are directly supported in database schemas and in the query language.
 #### 2. Prerequisites
 #### 3. Downloading the Binary Package
 #### 4. Installing PostgreSQL
