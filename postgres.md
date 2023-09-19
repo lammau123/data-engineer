@@ -1,4 +1,4 @@
-## How to Run Postgres from Binary Package
+## How to Run Postgres from Binary Package on Window 11
 #### 1. Introduction
 Database is a collection of information which are stored in some specific structures. These structures are supported by database management system (DBMS), which is responsible for managing the storage, retrieval, modification, and deletion of data in the database.
 Some common types of databases: 
