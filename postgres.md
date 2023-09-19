@@ -14,9 +14,9 @@ Postgres is an Object-Relational Database (ORD). It combines the features of bot
 * 2 GB of RAM
 * 512 MB of HDD
 #### 3. Downloading the Binary Package
-Download the file at https://www.postgresql.org/ftp/source/v16.0/
+Download the file at https://www.enterprisedb.com/download-postgresql-binaries
 #### 4. Installing PostgreSQL
-* Extract the source to your desired location. Ex: C:\databases\postgresql-16.0
-* 
-#### 5. Post-installation Configuration
+* Extracting the source to your desired location. Ex: C:\databases\postgres
+* Create a folder for storing database files. Ex: C:\databases\data
+#### 5. Starting database server
 #### 6. Testing the Installation
