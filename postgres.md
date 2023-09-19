@@ -10,7 +10,13 @@ Some common types of databases:
 
 Postgres is an Object-Relational Database (ORD). It combines the features of both relational and object-oriented databases, which means that objects, classes, and inheritance are directly supported in database schemas and in the query language.
 #### 2. Prerequisites
+* 1 GHz processor
+* 2 GB of RAM
+* 512 MB of HDD
 #### 3. Downloading the Binary Package
+Download the file at https://www.postgresql.org/ftp/source/v16.0/
 #### 4. Installing PostgreSQL
+* Extract the source to your desired location. Ex: C:\databases\postgresql-16.0
+* 
 #### 5. Post-installation Configuration
 #### 6. Testing the Installation
