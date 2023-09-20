@@ -23,5 +23,8 @@ Download the file at https://www.enterprisedb.com/download-postgresql-binaries
 
 ![Init a database cluster](images/initdb.png)
 #### 5. Starting database server
+After finishing running the initdb. All configuration for the database cluster are created in the C:\databases\data folder. The next step is starting the posstgres server.
+pg_ctl -D "C:\databases\data" logfile start
 
+![Start postgres server](images/start_server.png)
 #### 6. Testing the Installation
