@@ -21,6 +21,7 @@ Download the file at https://www.enterprisedb.com/download-postgresql-binaries
 * Creating a database cluster.
   initdb -D C:\databases\data
 
+![Init a database cluster](images/initdb.png)
 #### 5. Starting database server
 
 #### 6. Testing the Installation
