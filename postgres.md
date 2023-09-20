@@ -1,4 +1,6 @@
 ## How to Run Postgres from Binary Package on Window 11
+
+This is a brief summary about postgres database and how to run it from binary package without installation.
 #### 1. Introduction
 Database is a collection of information which are stored in some specific structures. These structures are supported by database management system (DBMS), which is responsible for managing the storage, retrieval, modification, and deletion of data in the database.
 Some common types of databases: 
@@ -34,12 +36,38 @@ psql -l
 ![list postgres databases](images/list_databases.png)
 * Connecting to postgres database
 psql -h localhost -p 5432 -d postgres -U lamma
+-h: hostname
+-p: port
+-d: databasename
+-U: ownername
 
 ![list postgres databases](images/connected_postgres.png)
-* Creating new database
-* Creating schema
-* creating tables
-* Inserting data into the table
-* Query inserted data
+* Creating new database;
+CREATE DATABASE testdb
 
+![list postgres databases](images/created_database.png)
+* Switching to new created database
+\c testdb
+
+![list postgres databases](images/switch_db.png)
+* Creating schema
+CREATE SCHEMA schema1;
+
+![list postgres databases](images/created_schema.png)
+* creating tables
+CREATE TABLE schema1.my_table (
+    name text,
+    date date
+);
+
+![list postgres databases](images/created_table.png)
+* Inserting data into the table
+INSERT INTO schema1.my_table(name, date) VALUES('name1', '12/01/2023');
+INSERT INTO schema1.my_table(name, date) VALUES('name1', '12/01/2023');
+
+![list postgres databases](images/insert_value.png)
+* Query inserted data
+SELECT * FROM schema1.my_table;
+
+![list postgres databases](images/select_values.png)
 
