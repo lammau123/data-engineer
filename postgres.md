@@ -28,3 +28,6 @@ pg_ctl -D "C:\databases\data" logfile start
 
 ![Start postgres server](images/start_server.png)
 #### 6. Testing the Installation
+After starting the server we can check the all pre created databases on the server
+
+
