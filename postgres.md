@@ -28,6 +28,18 @@ pg_ctl -D "C:\databases\data" logfile start
 
 ![Start postgres server](images/start_server.png)
 #### 6. Testing the Installation
-After starting the server we can check the all pre created databases on the server
+* Checking all pre created databases on the server
+psql -l
+
+![list postgres databases](images/list_databases.png)
+* Connecting to postgres database
+psql -h localhost -p 5432 -d postgres -U lamma
+
+![list postgres databases](images/connected_postgres.png)
+* Creating new database
+* Creating schema
+* creating tables
+* Inserting data into the table
+* Query inserted data
 
 
