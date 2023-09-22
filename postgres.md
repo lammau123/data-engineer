@@ -1,4 +1,4 @@
-## How to Run Postgres from Binary Package on Window 11
+# How to Run Postgres from Binary Package on Window 11
 
 This guide provides step-by-step instructions on setting up PostgreSQL using a binary package without the need for installation. PostgreSQL is a powerful open-source database system, and this approach allows you to quickly get it up and running.
 #### 1. Introduction
