@@ -13,7 +13,10 @@ wsl --list --online
 ```
 * Install wsl
 ```code
-wsl --install
+wsl --install -d Ubuntu
 ```
-
-
+* Once Ubuntu installed, update and then upgrade it
+```code
+sudo apt-get update
+sudo apt-get upgrade
+```
