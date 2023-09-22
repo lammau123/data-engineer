@@ -15,7 +15,8 @@ wsl --list --online
 ```code
 wsl --install -d Ubuntu
 ```
-* Once Ubuntu installed, update and then upgrade it
+#### Once Ubuntu installed, update and then upgrade it
+* From window Start menu, click Ubuntu icon to start linux and it will ask you for creating user for the first time. Once you have done it, follow the steps below.
 ```code
 sudo apt-get update
 sudo apt-get upgrade
