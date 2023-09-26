@@ -2,7 +2,7 @@
 A pipeline includes a series tasks, these tasks are configured to execute in a specified order to achieve a specific data processing or ETL (Extract, Transform, Load) goal. the output of one finished task can be an input of next tasks. Airflow provides a way to define, schedule, and monitor these pipelines using Python code.
 #### Single Task Pipeline
 * Create a python file and copy it to ~\airflow\dags folder
-```code
+```python
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import timedelta
