@@ -2,10 +2,10 @@
 
 Window Subsystem for Linux (WSL) lets developer run linux on window OS at the same time. 
 
-#### Prerequisites
+## 1. Prerequisites
 You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11 to use the commands below. If you are on earlier versions please see the manual install page.
 
-#### Install WSL
+## 2. Install WSL
 Open window commandline and run the below code
 * List all support distribution
 ```code
@@ -15,7 +15,7 @@ wsl --list --online
 ```code
 wsl --install -d Ubuntu
 ```
-#### Once Ubuntu installed, update and then upgrade it
+## 3. Once Ubuntu installed, update and then upgrade it
 * From window Start menu, click Ubuntu icon to start linux and it will ask you for creating user for the first time. Once you have done it, follow the steps below.
 ```code
 sudo apt-get update
