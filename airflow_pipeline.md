@@ -130,4 +130,12 @@ task1 >> [task2, task3] >> task4
 * Task Graph shows on the Airflow page
 ![Dags](/assets/images/multi_tasks.png)
 #### Transfer Data Between Tasks in Pipeline
+* Create a python file and copy the below code or get file file from here [code](/airflow_pipeline/multi_tasks_with_input_data.py) and copy it to ~\airflow\dags folder
+```python
+
+```
+* Tasks logs shows on the Airflow page
+![Dags](/assets/images/multi_tasks_log1.png)
+![Dags](/assets/images/multi_tasks_log2.png)
+
 
