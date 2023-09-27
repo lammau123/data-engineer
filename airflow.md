@@ -39,7 +39,7 @@ source airflow_environment/bin/activate
 #### Create Airflow Home Directory
 Create a directory to store Airflow files:
 ```code
-mkdir airflow_home
+mkdir airflow
 ```
 #### Install Apache Airflow
 Install Apache Airflow using pip3:
@@ -54,7 +54,7 @@ vi ~/.profile
 ```
 Add the following line to set the AIRFLOW_HOME path, replacing [username] with your username:
 ```code
-AIRFLOW_HOME=/home/[username]/airflow_home
+AIRFLOW_HOME=/home/[username]/airflow
 ```
 After making this change, log out of your WSL session and log in again for the changes to take effect.
 #### Initialize the Airflow Database
