@@ -1,6 +1,6 @@
 # How to Create Airflow Pipeline
 A pipeline includes a series tasks, these tasks are configured to execute in a specified order to achieve a specific data processing or ETL (Extract, Transform, Load) goal. the output of one finished task can be an input of next tasks. Airflow provides a way to define, schedule, and monitor these pipelines using Python code.
-#### Single Task Pipeline
+## 1. Single Task Pipeline
 * Create a python file and copy the below code or get file file from here [code](/airflow_pipeline/single_task.py) and copy it to ~\airflow\dags folder
 ```python
 from airflow import DAG
@@ -37,7 +37,7 @@ task
 ![Dags](/assets/images/single_task_dag.png)
 * Task Graph shows on the Airflow page
 ![Dags](/assets/images/single_task.png)
-#### Task Input Data Pipeline
+## 2. Task Input Data Pipeline
 * Create a python file and copy the below code or get file file from here [code](/airflow_pipeline/single_task_with_input_data.py) and copy it to ~\airflow\dags folder
 ```python
 from airflow import DAG
@@ -74,7 +74,7 @@ task
 ```
 * Task Log shows on the Airflow page
 ![Dags](/assets/images/single_task_with_input.png)
-#### Multiple Tasks Pipeline
+## 3. Multiple Tasks Pipeline
 * Create a python file and copy the below code or get file file from here [code](/airflow_pipeline/multi_tasks.py) and copy it to ~\airflow\dags folder
 ```python
 import pendulum
@@ -129,7 +129,7 @@ task1 >> [task2, task3] >> task4
 ```
 * Task Graph shows on the Airflow page
 ![Dags](/assets/images/multi_tasks.png)
-#### Transfer Data Between Tasks in Pipeline
+## 4. Transfer Data Between Tasks in Pipeline
 * Create a python file and copy the below code or get file file from here [code](/airflow_pipeline/multi_tasks_with_input_data.py) and copy it to ~\airflow\dags folder
 ```python
 import pendulum
