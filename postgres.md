@@ -1,7 +1,7 @@
 # How to Run Postgres from Binary Package on Window 11
 
 This guide provides step-by-step instructions on setting up PostgreSQL using a binary package without the need for installation. PostgreSQL is a powerful open-source database system, and this approach allows you to quickly get it up and running.
-#### 1. Introduction
+## 1. Introduction
 A database is a structured collection of data managed by a Database Management System (DBMS). A DBMS is responsible for storing, retrieving, modifying, and deleting data efficiently. There are various types of databases, including:
 
 * Relational databases
@@ -11,7 +11,7 @@ A database is a structured collection of data managed by a Database Management S
 * Network databases
   
 PostgreSQL, often referred to as Postgres, stands out as an Object-Relational Database (ORD). It combines the best of both worlds, supporting relational and object-oriented features. This means that PostgreSQL allows the direct representation of objects, classes, and inheritance in database schemas and the query language.
-#### 2. Prerequisites
+## 2. Prerequisites
 Before you begin, ensure that your system meets these minimal hardware requirements:
 
 * 1 GHz processor
@@ -20,11 +20,11 @@ Before you begin, ensure that your system meets these minimal hardware requireme
   
 Please note that these requirements are the bare minimum for basic functionality. For optimal performance or when dealing with larger databases, it's advisable to allocate more resources.
 
-#### 3. Downloading the Binary Package
+## 3. Downloading the Binary Package
 Start by downloading the PostgreSQL binary package for Windows 11:
 
 Download Link: https://www.enterprisedb.com/download-postgresql-binaries
-#### 4. Installing PostgreSQL
+## 4. Installing PostgreSQL
 Follow these steps to set up PostgreSQL:
 
 * Extract the downloaded package to your desired location (e.g., C:\databases\postgres).
@@ -34,13 +34,13 @@ Follow these steps to set up PostgreSQL:
 C:\databases\postgres\bin> initdb -D C:\databases\data
 ```
 
-#### 5. Starting database server
+## 5. Starting database server
 Once you've successfully run initdb, the database cluster configuration is created in the C:\databases\data folder. Now, proceed to start the PostgreSQL server:
 ```code
 C:\databases\postgres\bin>pg_ctl -D "C:\databases\data" logfile start
 ```
 
-#### 6. Testing the Installation
+## 6. Testing the Installation
 To verify that PostgreSQL is up and running, perform the following tests:
 * List all pre-created databases on the server:
 ```code
