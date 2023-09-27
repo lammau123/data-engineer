@@ -33,6 +33,10 @@ with DAG(
 ##config pipeline here
 task
 ```
+* Dag list shows on the Airflow page
+![Dags](/assets/images/single_task_dag.png)
+* Task Graph shows on the Airflow page
+![Dags](/assets/images/single_task.png)
 #### Task Input Data Pipeline
 
 #### Multiple Tasks Pipeline
