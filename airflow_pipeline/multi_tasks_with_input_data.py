@@ -51,6 +51,9 @@ with DAG(
     task2 = PythonOperator(
         task_id='multi_task2_id',
         python_callable=multi_task2,
+        # Pass the output from 'multi_task1_id' as 'input_data' using XCom
+        # XCom allows sharing data between tasks within the same DAG
+        # The "{{ }}" syntax is used for templating, and it references the output of the 'multi_task1_id' task
         op_kwargs={'input_data': "{{ti.xcom_pull('multi_task1_id')}}"}
     )
     task3 = PythonOperator(
