@@ -29,5 +29,5 @@ with DAG(
         python_callable=task_name  # Specify the Python function to execute for this task
     )
 
-# Configuration for the DAG is defined above, and the 'task' is the final step that represents the task itself.
+# Define task to be executed in pipeline
 task
