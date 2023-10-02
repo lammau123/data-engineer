@@ -12,3 +12,11 @@ Data can be broadly categorized into two types: structured and unstructured data
 #### 3. Sources of Data
 
 Data can originate from various sources in our surroundings, including devices, activities, the environment, and more. It is the raw material from which information and knowledge are derived.
+
+#### 3. Definition of Information
+
+Raw data, by itself, does not provide useful information. Information is derived when data is processed and associated with specific context, rendering it meaningful and usable.
+
+#### 4. Definition of Knowledge
+
+Knowledge is the comprehension, awareness, or understanding that humans gain from data or information. It encompasses insights, skills, and expertise acquired through the interpretation and utilization of data. Knowledge can be categorized into two types: transferable knowledge, which can be shared or communicated, and untransferable knowledge, which is highly personal or tacit in nature. 
